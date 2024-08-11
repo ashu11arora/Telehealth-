@@ -23,14 +23,14 @@ const Footer = () => {
             <FaGithub className="w-5 h-5 text-black" />
           </a>
           <a
-            href="https://www.linkedin.com/in/ayushi-vashisth/"
+            href="https://www.linkedin.com/in/ashu130arora056/"
             target="_blank"
             rel="noopener noreferrer"
           >
             <FaLinkedin className="w-5 h-5 text-black" />
           </a>
           <a
-            href="mailto:ayushivashisth22@gmail.com"
+            href="mailto:"ashu130arora@gmail.com"
             rel="noreferrer"
             target="_blank"
           >
@@ -41,7 +41,7 @@ const Footer = () => {
           Check out my{" "}
           <a
             className="text-black font-bold"
-            href="https://drive.google.com/file/d/1_JcVUDemIdB8U72X8PfD4K7a-5vxQlqF/view?usp=sharing"
+            href="https:""
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -50,7 +50,7 @@ const Footer = () => {
           and{" "}
           <a
             className="text-black font-bold"
-            href="https://AyushiVashisth.github.io/"
+            href=""
             target="_blank"
             rel="noopener noreferrer"
           >
