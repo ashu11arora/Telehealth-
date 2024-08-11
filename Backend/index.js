@@ -12,7 +12,15 @@ const axios = require('axios');
 require("dotenv").config()
 const app=express();
 const cors=require('cors')
-app.use(cors())
+app.use(cors(
+    {
+        origin: 'https://ashudeploy-mern.vercel.app', // Allow only your frontend domain
+  methods: ["POST","GET"]// Specify allowed HTTP methods
+  credentials: true, // Allow credentials (cookies, authorization headers, etc.)
+    }
+
+    
+))
 app.use(express.json())
 app.use(express.urlencoded({
     extended: true
