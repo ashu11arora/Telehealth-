@@ -11,26 +11,26 @@ const Footer = () => {
             &copy; {new Date().getFullYear()} My Web. All rights reserved.
           </p>
           <p className="text-sm text-black mt-2">
-            Made with ❤️ by Ashu Arora
+            Made with ❤️ by Techno
           </p>
         </div>
         <div className="flex justify-center space-x-4 mt-4">
           <a
-            href="https://github.com/AyushiVashisth"
+            href="https://github.com/ashu11arora/Telehealth-"
             target="_blank"
             rel="noopener noreferrer"
           >
             <FaGithub className="w-5 h-5 text-black" />
           </a>
           <a
-            href="https://www.linkedin.com/in/ayushi-vashisth/"
+            href=""
             target="_blank"
             rel="noopener noreferrer"
           >
             <FaLinkedin className="w-5 h-5 text-black" />
           </a>
           <a
-            href="mailto:ayushivashisth22@gmail.com"
+            href=""
             rel="noreferrer"
             target="_blank"
           >
@@ -41,7 +41,7 @@ const Footer = () => {
           Check out my{" "}
           <a
             className="text-black font-bold"
-            href="https://drive.google.com/file/d/1_JcVUDemIdB8U72X8PfD4K7a-5vxQlqF/view?usp=sharing"
+            href=""
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -50,7 +50,7 @@ const Footer = () => {
           and{" "}
           <a
             className="text-black font-bold"
-            href="https://AyushiVashisth.github.io/"
+            href="https://github.com/ashu11arora/Telehealth-"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -65,3 +65,4 @@ const Footer = () => {
 };
 
 export default Footer;
+
